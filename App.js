@@ -76,7 +76,7 @@ const App: () => Node = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            Edit App.js
+            First commit change
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
