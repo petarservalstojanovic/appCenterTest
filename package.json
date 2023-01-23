@@ -46,16 +46,9 @@
     "preset": "react-native"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "eslint ."
-    ],
-    "./src/**": [
-      "prettier --write ."
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
