@@ -6,7 +6,7 @@ const App = () => {
   return (
     <View>
       <Text>
-        New app
+        New appdsadas
       </Text>
       <DemoComponent />
     </View>
