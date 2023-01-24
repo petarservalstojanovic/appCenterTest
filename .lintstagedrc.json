@@ -1,0 +1,11 @@
+{
+  "*.ts": [
+    "eslint --fix \"./**/*.{ts,tsx}\""
+  ],
+  "*.tsx": [
+    "eslint --fix \"./**/*.{ts,tsx}\""
+  ],
+  "*.html": [
+    "eslint --fix \"./**/*.{ts,tsx}\""
+  ]
+}

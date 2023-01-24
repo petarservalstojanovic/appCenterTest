@@ -44,10 +44,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix \"./**/*.{ts,tsx}\""
-    ]
   }
 }
