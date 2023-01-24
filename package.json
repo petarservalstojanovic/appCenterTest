@@ -7,9 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
+    "lint": "eslint \"./**/*.{ts,tsx}\"",
     "format": "prettier --write \"./**/*.{ts,tsx}\"",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix \"./**/*.{ts,tsx}\""
   },
   "dependencies": {
     "appcenter": "4.4.5",
@@ -47,8 +47,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --fix"
+      "prettier --write \"./**/*.{ts,tsx}\"",
+      "eslint --fix \"./**/*.{ts,tsx}\""
     ]
   }
 }
